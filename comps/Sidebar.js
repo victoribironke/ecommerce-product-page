@@ -10,8 +10,8 @@ const Sidebar = (props) => {
 
   useEffect(() => {
     props.show == true
-      ? sidebar.current.classList.toggle(styles.show)
-      : sidebar.current.classList.toggle(styles.show);
+      ? sidebar.current.classList.add(styles.show)
+      : sidebar.current.classList.remove(styles.show);
   }, [props.show]);
 
   return (
