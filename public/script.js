@@ -5,7 +5,6 @@ const itemDiv = document.querySelector(".item");
 const text = document.querySelector(".text");
 const cartImg = document.querySelector(".cartImg");
 const cartDiv = document.querySelector(".chacha");
-console.log(cartDiv, cartImg);
 cartImg.style.cursor = "pointer";
 
 const changeCart = () => {
