@@ -2,6 +2,7 @@
   width: 100%;
   max-width: 900px;
   height: auto;
+  z-index: 999;
   padding: 20px;
   background: white;
   position: absolute;
